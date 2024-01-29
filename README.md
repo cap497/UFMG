@@ -1,3 +1,3 @@
-# UFMG - Computer Science Undergraduate
+# UFMG - Computer Science Undergraduate Course
 
 Welcome to my GitHub directory, where I've hand-picked a selection of the most relevant and significant code snippets and projects developed during my undergraduate studies. This collection is not exhaustive; it reflects my academic and personal growth in the field of computer science and related disciplines, representing a carefully chosen assortment of works that showcase my skills, learning journey, and areas of interest. It's important to note that most of the content in this repository is in Portuguese, reflecting the language of instruction and my cultural background.
