@@ -4,4 +4,4 @@ Hand-picked selection of the most relevant and significant code snippets and pro
 
 Note: This content is in Portuguese.
 
-Note: There are two other specific repos for Algorithms and Computational Statistical Physics.
+Note: There are two other specific repositories for Algorithms and Computational Statistical Physics.
