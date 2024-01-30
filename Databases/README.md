@@ -1,3 +1,3 @@
 # Banco de Dados
 
-Exercícios de SQL.
+## Exercícios de SQL
