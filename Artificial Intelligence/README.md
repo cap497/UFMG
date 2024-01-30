@@ -1,4 +1,4 @@
-# Artificial Intelligence
+# Inteligência Artificial
 
 Este diretório contém dois trabalhos:
 
