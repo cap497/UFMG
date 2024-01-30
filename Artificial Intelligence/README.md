@@ -1,3 +1,5 @@
+# Inteligência Artificial
+
 ## 8 Puzzle
 
 Escrito em Python e com relatório em PDF, este trabalho estuda diferentes algoritmos de busca (sem informação, com informação e local).
