@@ -1,3 +1,3 @@
-# Operations Research
+# Pesquisa Operacional
 
-Este diretório contém a implementação em Python do algoritmo Simplex para a disciplina de Pesquisa Operacional.
+Implementação em Python do algoritmo Simplex.
