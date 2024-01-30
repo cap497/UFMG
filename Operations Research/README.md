@@ -1,3 +1,3 @@
 # Pesquisa Operacional
 
-## Python Simplex.
+## Python Simplex
