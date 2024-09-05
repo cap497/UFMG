@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package wallet;
+
+import "google/protobuf/empty.proto";  // Importa a definição padrão de Empty
+
+message WalletId {
+    string id = 1;
+}
+
+message Balance {
+    int32 value = 1;
+}
+
+message PaymentOrderRequest {
+    string id = 1;
+    int32 amount = 2;
+}
+
+message PaymentOrderResponse {
+    int32 status = 1;
+    int32 order_id = 2;
+}
+
+message TransferRequest {
+    int32 order_id = 1;
+    int32 confirmation_value = 2;
+    string destination_id = 3;
+}
+
+message TransferResponse {
+    int32 status = 1;
+}
+
+message ShutdownResponse {
+    int32 pending_orders = 1;
+    repeated WalletData wallets = 2;
+}
+
+message WalletData {
+    string id = 1;
+    int32 value = 2;
+}
+
+service Wallet {
+    rpc GetBalance (WalletId) returns (Balance);
+    rpc CreateOrder (PaymentOrderRequest) returns (PaymentOrderResponse);
+    rpc Transfer (TransferRequest) returns (TransferResponse);
+    rpc Shutdown (google.protobuf.Empty) returns (ShutdownResponse);
+}
+
