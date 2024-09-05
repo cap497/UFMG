@@ -1,7 +1,7 @@
 # Sistemas Paralelos e Distribuídos
 
-## Travas Múltiplas Atômicas
+## Threads Grid
 
 
-## gRPC
+## gRPC Payment
 
