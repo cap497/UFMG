@@ -19,3 +19,5 @@
 ### kNN
 
 ### k-Means
+
+### k-Means 2 Approximate
